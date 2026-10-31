@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" role="img" aria-labelledby="title desc">
+  <title id="title">Growfinix machine-learning portfolio</title>
+  <desc id="desc">An abstract chart and data points representing five machine-learning projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+  <rect width="640" height="210" rx="22" fill="url(#bg)"/>
+  <g stroke="#94a3b8" stroke-opacity=".15" stroke-width="1">
+    <path d="M280 42H610M280 82H610M280 122H610M280 162H610"/>
+    <path d="M320 28V178M390 28V178M460 28V178M530 28V178M600 28V178"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="36" y="55" fill="#67e8f9" font-size="14" font-weight="700" letter-spacing="3">MACHINE LEARNING</text>
+    <text x="34" y="100" fill="#f8fafc" font-size="34" font-weight="700">Growfinix</text>
+    <text x="36" y="132" fill="#cbd5e1" font-size="16">Five applied ML projects</text>
+    <text x="36" y="162" fill="#94a3b8" font-size="12" letter-spacing="1.5">HEALTH · FRAUD · CHURN · RETAIL · ENERGY</text>
+  </g>
+  <path d="M290 150 345 121 393 133 449 85 498 102 554 58 605 70" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#111827" stroke="url(#line)" stroke-width="3">
+    <circle cx="290" cy="150" r="6"/><circle cx="345" cy="121" r="6"/><circle cx="393" cy="133" r="6"/>
+    <circle cx="449" cy="85" r="6"/><circle cx="498" cy="102" r="6"/><circle cx="554" cy="58" r="6"/><circle cx="605" cy="70" r="6"/>
+  </g>
+</svg>
