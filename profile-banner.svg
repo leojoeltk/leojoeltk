@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Thomas Kurian — Python and applied machine learning</title>
+  <desc id="desc">A dark blue banner with a connected data graph and machine-learning inspired shapes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.58" stop-color="#111b35"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#94a3b8" opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="28" fill="url(#dots)"/>
+  <ellipse cx="952" cy="174" rx="278" ry="245" fill="url(#glow)"/>
+  <path d="M0 278 C210 230 324 347 522 286 S850 234 1200 294" fill="none" stroke="#64748b" stroke-opacity=".18" stroke-width="2"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="76" y="110" fill="#93c5fd" font-size="17" font-weight="700" letter-spacing="4">PYTHON  /  APPLIED ML</text>
+    <text x="72" y="178" fill="#f8fafc" font-size="54" font-weight="750" letter-spacing="-1.5">Thomas Kurian</text>
+    <text x="76" y="221" fill="#cbd5e1" font-size="21">Building practical tools from data and ideas.</text>
+    <rect x="76" y="257" width="118" height="4" rx="2" fill="url(#accent)"/>
+  </g>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" opacity=".8">
+    <path d="M738 100 836 146 934 88 1038 144 1114 92"/>
+    <path d="M836 146 834 245 956 208 1038 144 1072 244"/>
+    <path d="M934 88 956 208 1114 92" opacity=".58"/>
+  </g>
+  <g fill="#0f172a" stroke="url(#accent)" stroke-width="3">
+    <circle cx="738" cy="100" r="10"/><circle cx="836" cy="146" r="12"/>
+    <circle cx="934" cy="88" r="9"/><circle cx="1038" cy="144" r="12"/>
+    <circle cx="1114" cy="92" r="9"/><circle cx="834" cy="245" r="9"/>
+    <circle cx="956" cy="208" r="13"/><circle cx="1072" cy="244" r="9"/>
+  </g>
+  <g opacity=".82">
+    <rect x="718" y="276" width="24" height="28" rx="5" fill="#38bdf8" opacity=".7"/>
+    <rect x="754" y="258" width="24" height="46" rx="5" fill="#60a5fa" opacity=".75"/>
+    <rect x="790" y="236" width="24" height="68" rx="5" fill="#818cf8" opacity=".82"/>
+    <rect x="826" y="216" width="24" height="88" rx="5" fill="#a78bfa" opacity=".9"/>
+  </g>
+  <circle cx="1090" cy="277" r="35" fill="none" stroke="#c4b5fd" stroke-opacity=".3" stroke-width="1.5"/>
+</svg>
